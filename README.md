@@ -17,7 +17,7 @@ The notebook allows users to customise certain parameters to generate the desire
 - `total_variation_weight` : Can be adjusted to modify the rate of convergence of the total variation loss of the model.
 - `opt` : The optimizer used to train the model. The paper recommends LBFGS, but the Adam optimizer set as the default here works just as well.
 
-## Sample Images
+## Sample Images (1/2)
 
 #### Content Image
 
@@ -25,8 +25,22 @@ The notebook allows users to customise certain parameters to generate the desire
 
 #### Style Image
 
-<img src="CompositionVII_style.jpg" width="512" height="347">
+<img src="Kanagawa_style.jpg" width="512" height="347">
 
 #### Output Gif
 
-![Image Error](NST.gif)
+![Image Error](MBS_Kanagawa.gif)
+
+## Sample Images (2/2)
+
+#### Content Image
+
+<img src="Lion_content.png" width="512" height="347">
+
+#### Style Image
+
+<img src="StarryNight_style.jpg" width="512" height="347">
+
+#### Output Gif
+
+![Image Error](Lion_StarryNight.gif)
